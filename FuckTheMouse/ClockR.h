@@ -4,7 +4,7 @@
 
 using namespace std::literals;
 
-const std::chrono::milliseconds DELAY = 40ms;
+const std::chrono::milliseconds DELAY = 36ms;
 
 class ClockR
 {

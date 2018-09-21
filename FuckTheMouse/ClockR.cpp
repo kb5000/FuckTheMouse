@@ -30,7 +30,7 @@ void ClockR::update()
 	lastClick = hrClock.now();
 }
 
-ClockR & ClockR::setDelay(std::chrono::milliseconds dly)
+ClockR& ClockR::setDelay(std::chrono::milliseconds dly)
 {
 	delay = dly;
 	return *this;
